@@ -1,0 +1,592 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: 16px;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+table,
+tr,
+td {
+    border: 0;
+}
+
+.w {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.clearfix:after {
+    content: "020";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+    background-color: #000;
+    border-bottom: 1px solid red;
+}
+
+.nav a {
+    line-height: 60px;
+    color: white;
+    text-decoration: none;
+    margin: 0 47px;
+}
+
+.nav a:hover {
+    color: red;
+}
+
+.banner {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    background-color: black;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.bimg {
+    width: 100%;
+    display: block;
+}
+
+.main1 tr td {
+    float: left;
+}
+
+.main1 tr td p {
+    width: 446px;
+    margin-left: 50px;
+    font-size: 30px;
+    line-height: 61px;
+    margin-top: 41px;
+}
+
+.main1 tr td img {
+    margin-top: 10px;
+    position: relative;
+    z-index: 5;
+}
+
+.tit {
+    background-color: black;
+    line-height: 80px;
+    color: white;
+
+    margin: 50px auto;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+.tit tr td {
+    font-size: 50px;
+    text-align: center;
+}
+
+.main2 tr td {
+    float: left;
+    margin-right: 31px;
+    text-align: center;
+    position: relative;
+    height: 410px;
+    background-color: #ccc;
+}
+
+.main2 tr td img {
+    width: 411px;
+    height: 232px;
+}
+
+.main2 tr td:last-child {
+    margin-right: 0;
+}
+
+.main2 tr td p {
+    font-size: 38px;
+    line-height: 50px;
+}
+
+.main2 tr td a {
+    text-decoration: none;
+    margin-right: 3px;
+    display: block;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    right: 9px;
+    bottom: 9px;
+}
+
+.main2 tr td a:hover {
+    background-color: red;
+}
+
+.main2 tr td span {
+    width: 400px;
+    display: block;
+    margin-top: 10px;
+}
+
+.main3 {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 1px;
+    padding-bottom: 90px;
+    width: 100%;
+}
+
+.main3 h1 {
+    font-size: 50px;
+    width: 300px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 80px auto 100px;
+    padding: 10px 0;
+    letter-spacing: 5px;
+}
+
+.main3 span {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    line-height: 200px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 0 90px;
+    font-size: 50px;
+}
+
+.main3 span:hover {
+    background-color: blue;
+}
+
+.main4 h1 {
+    line-height: 90px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.main4 h1 i {
+    width: 270px;
+    height: 60px;
+    line-height: 60px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    font-style: normal;
+    letter-spacing: 6px;
+}
+
+.main4 h1 span {
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    float: right;
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+.main4 img {
+    margin-right: 27px;
+}
+
+.main4 img:last-child {
+    margin-right: 0;
+}
+
+.main5 tr td {
+    float: left;
+    width: 400px;
+    height: 650px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.main5 tr td img:hover {
+    border-color: red;
+}
+
+.main5 tr td img {
+    height: 539px;
+    width: 400px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.main5 span {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 5px 30px;
+    margin: 10px 0 20px;
+}
+
+.main5 p {
+    background-color: black;
+    color: white;
+    padding: 6px;
+    height: 75px;
+}
+
+.main5 tr td:nth-child(3n) {
+    margin-right: 0;
+}
+
+.main5 tr {
+    width: 1300px;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.main6 {
+    margin-top: 60px;
+}
+
+.main6 tr td {
+    float: left;
+    width: 299px;
+    margin-right: 33px;
+    background-color: #eee;
+    height: 160px;
+}
+
+.main6 tr td:last-child {
+    margin-right: 0;
+}
+
+.main6 tr td img {
+    width: 100%;
+    height: 160px;
+}
+
+.main6 tr td p {
+    font-size: 18px;
+    line-height: 29px;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+
+.zp {
+    width: 300px;
+    margin: 50px auto;
+    background-color: #fed579;
+    text-align: center;
+    padding: 36px 0;
+}
+
+.zp p {
+    font-size: 30px;
+    line-height: 60px;
+    font-weight: 700;
+}
+
+.main7 {
+    width: 1305px;
+    margin: 0 auto;
+}
+
+.main7 tr td {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.main7 img {
+    width: 400px;
+    height: 225px;
+    margin-right: 45px;
+    margin-bottom: 30px;
+}
+
+.main7 img:nth-child(3n) {
+    margin-right: 0;
+}
+
+.main7 a {
+    display: block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    margin: 0 auto;
+}
+
+.main7 a:hover {
+    background-color: red;
+}
+
+.main8 {
+    width: 100%;
+    background: url(../images/bg.jpg) no-repeat top center;
+    padding: 200px 0;
+}
+
+.main9 {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.main9 tr td {
+    display: block;
+    width: 900px;
+    height: 550px;
+    margin: 0 auto;
+    color: white;
+    background-color: #5e5e5e;
+    padding-top: 80px;
+}
+
+.main9 p {
+    margin-left: 90px;
+    line-height: 100px;
+    font-size: 36px;
+    letter-spacing: 3px;
+}
+
+.main9 img {
+    margin-left: 30px;
+}
+
+.main10 {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.main10 p {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 130px;
+}
+
+.main10 img {
+    margin-right: 90px;
+}
+
+.main10 img:nth-of-type(2) {
+    margin-right: 0;
+}
+
+.main11 {
+    margin-bottom: 80px;
+}
+
+.main11 video {
+    width: 100%;
+}
+
+.main12 {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.main12 img {
+    width: 900px;
+}
+
+.main12 p {
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    line-height: 50px;
+    letter-spacing: 2px;
+}
+
+.main12.main13 img {
+    width: 1100px;
+}
+
+.main14 {
+    margin-top: 80px;
+}
+
+.main14 tr td img {
+    border: 1px solid black;
+    width: 400px;
+}
+
+.main14 tr td {
+    text-align: center;
+}
+
+.main14 tr td p {
+    width: 400px;
+    margin: 10px auto 30px;
+    font-size: 28px;
+    background-color: black;
+    color: white;
+}
+
+.main14 tr td img {
+    height: 467px;
+}
+
+.main14.main15 tr td {
+    float: left;
+    margin-right: 45px;
+    margin-bottom: 50px;
+}
+
+.main14.main15 tr td:nth-child(3n) {
+    margin-right: 0;
+}
+
+.main14.main15 p {
+    height: 111px;
+}
+
+.footer {
+    width: 100%;
+    background-color: black;
+    color: #ccc;
+    padding: 30px 0;
+    margin-top: 80px;
+}
+
+.footer tr td {
+    width: 1300px;
+    margin: 0 auto;
+    display: block;
+}
+
+.footer hr {
+    margin: 20px 0;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.footer a {
+    color: #ccc;
+    margin: 0 2px;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: red;
+}
+/* 去掉轮播图的上下空隙 */
+#carouselExampleIndicators {
+    margin: 0;
+    padding: 0;
+}
+
+/* 确保轮播图图片大小一致 */
+.carousel-inner img {
+    height:; /* 根据需求设置固定高度 */
+    width: 100PX;
+    object-fit: cover;
+}
+td img:hover{
+    transform: scale(1.2);
+}
+.col-md-4 img:hover{
+    transform: scale(1.1);
+}
+.col-md-4 img{
+    height: 300px;
+}
+.gap-3 img:hover{
+    transform: scale(1.08);
+}
+.col-md-4 p:nth-child(3){
+    height: 80px;
+}
+
+#carouselExampleIndicators{
+    margin-bottom: 20px !important;
+}
+/* 修改导航栏背景色和文字颜色 */
+.navbar {
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important;  /* 修改文字颜色 */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f8f9fa !important;  /* 修改悬停时文字颜色 */
+}
+
+/* 调整菜单按钮颜色 */
+.navbar-toggler-icon {
+    background-color: #fff;  /* 修改为白色 */
+}
+
+/* 调整菜单按钮大小 */
+.navbar-toggler {
+    border-color: #fff;  /* 修改按钮边框颜色 */
+}
+
+/* 设置菜单按钮在鼠标悬停时的颜色 */
+.navbar-toggler:hover {
+    background-color: #5a6268;  /* 按钮悬停时背景色 */
+}
+
+/* 修改链接之间的间距 */
+.navbar-nav .nav-item {
+    margin-left: 20px;  /* 设置每个链接之间的左间距 */
+}
+
+/* 更改导航栏内容的对齐方式 */
+.navbar-nav {
+    text-align: center;  /* 设置导航栏内容居中 */
+}
+
+/* 垂直居中导航栏内容 */
+.navbar .navbar-nav {
+    align-items: center;
+}
+
+/* 修改折叠时菜单的背景色 */
+.navbar-collapse {
+    background-color: #343a40;  /* 设置折叠时菜单的背景色 */
+}
+
+/* 调整移动端导航栏文字颜色 */
+@media (max-width: 991px) {
+    .navbar-nav .nav-link {
+        color: #fff !important;
+    }
+}
+.shows img {
+    max-width: 100%; /* 确保图片不会溢出 */
+    height: 250PX; /* 保持图片的纵横比 */
+    width: 400PX;
+}
+.justify-content-center{
+    flex-wrap: wrap;
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>海报</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style>
+        /* 响应式调整：在小屏幕上让图片和文本垂直排列 */
+        @media (max-width: 767px) {
+            .row.my-4 {
+                display: flex;
+                flex-direction: column; /* 让图片和文本竖直排列 */
+                align-items: center;
+            }
+
+            .row.my-4 .col-md-6 {
+                margin-bottom: 20px; /* 给文本和图片之间加点间距 */
+            }
+
+            .zp p {
+                font-size: 1.2rem; /* 适应小屏幕的字体大小 */
+            }
+
+            .zp span {
+                font-size: 1rem; /* 适应小屏幕的字体大小 */
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">我的个人网站</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">首页</a></li>
+                    <li class="nav-item"><a class="nav-link" href="wc.html">IP设计</a></li>
+                    <li class="nav-item"><a class="nav-link" href="hb.html">海报设计</a></li>
+                    <li class="nav-item"><a class="nav-link" href="ba.html">Banner</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cp.html">VI设计</a></li>
+                    <li class="nav-item"><a class="nav-link" href="lx.html">联系我</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 背景图片 -->
+    <img src="images/3.jpg" alt="" class="bimg img-fluid">
+
+    <!-- 主要内容部分 -->
+    <div class="container">
+        <div class="row my-4" style="display: flex; flex-wrap: wrap;align-items: center;justify-content: center;text-align: center;">
+            <div class="col-12 col-md-12 mt-3">
+                <p>龙，是中国古代神话中的动物，为鳞虫之长，是中华民族的象征之一。相传龙能飞行，擅变化，会呼风唤雨等，与凤凰、麒麟等并列为祥瑞。《尔雅翼》记载“角似鹿、头似驼、眼似兔、项似蛇、腹似蜃、鳞似鱼、爪似鹰、掌似虎、耳似牛”。瑰丽多姿、仪态万方的龙是我国历代人们喜闻乐见的装饰形象，且已经成为了中国文化中吉祥和幸福的代指符号。龙作为四灵之首，有吉祥，美好的寓意。 中国绿水相绕 ，青山环抱。山郁的造型以“龙”为基础，融入了山水，祥云等元素，色彩上与“青山绿水”不谋而和。将IP设计成更为可爱的神兽形象，更能在视觉上给人一种亲和力和吸引力。</p>
+            </div>
+        </div>
+
+        <!-- 作品展示标题 -->
+        <div class="zp text-center mb-4">
+            <p>作品展示</p>
+            <span>GALLERY</span>
+        </div>
+
+        <!-- 作品展示 -->
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <img src="images/IP1.jpg" class="img-fluid rounded" alt="">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="images/IP2.jpg" class="img-fluid rounded" alt="">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="images/IP3.jpg" class="img-fluid rounded" alt="">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="images/IP4.jpg" class="img-fluid rounded" alt="">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="images/IP5.jpg" class="img-fluid rounded" alt="">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="images/IP6.jpg" class="img-fluid rounded" alt="">
+            </div>
+            <div class="col-12 text-center mt-3">
+                <a href="#" class="btn btn-outline-primary">查看更多</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 页脚 -->
+    <footer class="footer bg-dark text-white py-4">
+        <div class="container text-center">
+            <a href="#" class="text-white me-3">移动版</a>
+            <a href="#" class="text-white me-3">关于我们</a>
+            <a href="#" class="text-white me-3">用户协议</a>
+            <a href="#" class="text-white me-3">隐私政策</a>
+            <a href="#" class="text-white me-3">侵权申诉</a>
+            <a href="#" class="text-white me-3">企业服务</a>
+            <a href="#" class="text-white me-3">帮助中心</a>
+            <a href="#" class="text-white me-3">联系我们</a>
+            <a href="#" class="text-white me-3">中文</a>
+            <a href="#" class="text-white me-3">English</a>
+            <hr>
+            <p>京公网安备：00000000001号 广播电视节目经营许可证号：00000001号 京ICP备：00000001号 人力资源许可证号：00000001号</p>
+            <p>电话：18117697639 邮箱：sans1234565@163.com 地址：厦门大学嘉庚学院</p>
+            <p>&copy; 2021 我的个人网站</p>
+        </div>
+    </footer>
+
+    <!-- 引入 Bootstrap JS -->
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
